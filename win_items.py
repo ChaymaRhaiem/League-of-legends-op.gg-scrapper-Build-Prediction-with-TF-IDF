@@ -8,7 +8,6 @@ from urllib.request import Request
 
 import pandas as pd
 
-import multiprocessing
 import time
 
 service = Service("C:\Instagram_stories_scrapper\chrome web driver\chromedriver_win32/chromedriver.exe")

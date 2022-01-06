@@ -42,9 +42,11 @@ One advantage of cosine similarity score is that it is independent of magnitude 
 <b> Step 5: </b> Create a get_recommendation function which takes an item name from the user and recommends similar items used by pro playersby taking the cosine simalarity scores of the most similar item explanation.
 
 ## Packages used
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import LabelBinarizer, LabelEncoder
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
+```

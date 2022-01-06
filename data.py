@@ -298,19 +298,19 @@ def get_recommendations(item, cosine_sim=cosine_sim):
     # Get the index of the movie that matches the title
     idx = indices[item]
 
-    # Get the pairwsie similarity scores of all movies with that movie
+    # Get the pairwsie similarity scores of all items with that movie
     sim_scores = list(enumerate(cosine_sim[idx]))
 
-    # Sort the movies based on the similarity scores
+    # Sort the items based on the similarity scores
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
 
-    # Get the scores of the 10 most similar movies
+    # Get the scores of the 10 most similar items
     sim_scores = sim_scores[1:11]
 
-    # Get the movie indices
+    # Get the items indices
     movie_indices = [i[0] for i in sim_scores]
 
-    # Return the top 10 most similar movies
+    # Return the top 10 most similar items
     return gg1['item'].iloc[movie_indices]
 
 

@@ -38,7 +38,7 @@ Aiming to create a generalized solution by taking into account all the important
 compute Term Frequency-Inverse Document Frequency (TF-IDF) vectors for each item explanation. <br>
  <br> Now to calculate similarity score,we did a bit of research on which are the easiest methods. We found several techniques like euclidean, the Pearson and the cosine similarity scores. 
  <br>
-We will be using cosine similarity scores to find the similarity between two movies <br>
+We will be using cosine similarity scores to find the similarity between items  <br>
 One advantage of cosine similarity score is that it is independent of magnitude and is relatively easy and fast to calculate. <br> 
 
 <b> Step 5: </b> Create a get_recommendation function which takes an item name from the user and recommends similar items used by pro playersby taking the cosine simalarity scores of the most similar item explanation. <br>

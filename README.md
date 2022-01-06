@@ -1,4 +1,5 @@
-# League-of-legends-op.gg-scrapper-Build-Prediction-with-Multi-Label-Classification
+# League-of-legends-op.gg-scrapper-Build-Prediction-with-TF-IDF
+
 ## Usage
 * You can download and open the <b>python file</b> on your preferred editor.
 * You can download and open the <b>notebook</b> on Jupyter Notebook or [Google Colab](https://colab.research.google.com/).

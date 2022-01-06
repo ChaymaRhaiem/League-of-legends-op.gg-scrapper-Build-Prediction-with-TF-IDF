@@ -51,3 +51,12 @@ from sklearn.preprocessing import LabelBinarizer, LabelEncoder
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 ```
+
+### Requirements:
+-selenium
+-bs4
+-datetime
+-urllib.request
+-pandas
+-sklearn
+-nltk

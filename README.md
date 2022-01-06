@@ -54,8 +54,9 @@ One advantage of cosine similarity score is that it is independent of magnitude 
 <b> Step 5: </b> Create a get_recommendation function which takes an item name from the user and recommends similar items used by pro playersby taking the cosine simalarity scores of the most similar item explanation. <br>
 
 ### Navigating the  Project: <br>
-<b> Scraping: </b> win_items.py contains the code used for scrapping 
-<b> ML & Data Mining: </b> data.py
-<b> Main: </b>  Choose to scrape or get item recommendations
+<ul>
+ <li> <b> Scraping: </b> win_items.py contains the code used for scrapping  <br> </li>
+ <li> <b> ML & Data Mining: </b> data.py <br> </li>
+ <li> <b> Main: </b>  Choose to scrape or get item recommendations </li>
 
 

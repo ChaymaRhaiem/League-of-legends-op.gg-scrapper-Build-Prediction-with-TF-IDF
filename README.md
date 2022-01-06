@@ -18,12 +18,22 @@
 The scrapers are different between one site and another. So, to use those scrapers, you have to change the value of <i>base_site</i> with the url desired, and identify tags to extract.
 
 ## Packages used
+### Scrapping
 ```python
 from bs4 import BeautifulSoup
 import requests
 from urllib.parse import urljoin
 import datetime from datetime
 import pandas as pd
+```
+### ML & Data mining
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.preprocessing import LabelBinarizer, LabelEncoder
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 ```
 
 # ML & Data Mining:
@@ -43,21 +53,9 @@ One advantage of cosine similarity score is that it is independent of magnitude 
 
 <b> Step 5: </b> Create a get_recommendation function which takes an item name from the user and recommends similar items used by pro playersby taking the cosine simalarity scores of the most similar item explanation. <br>
 
-## Packages used
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.preprocessing import LabelBinarizer, LabelEncoder
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
-```
+### Navigating the  Project: <br>
+<b> Scraping: </b> win_items.py contains the code used for scrapping 
+<b> ML & Data Mining: </b> data.py
+<b> Main: </b>  Choose to scrape or get item recommendations
 
-### Requirements:
--selenium
--bs4
--datetime
--urllib.request
--pandas
--sklearn
--nltk
+
